@@ -1,0 +1,4 @@
+@import "tailwindcss";
+/* tell tailwind where your templates/components live */
+/* @source "./index.html"; */
+/* @source "./src*.{js,ts,jsx,tsx}"; */

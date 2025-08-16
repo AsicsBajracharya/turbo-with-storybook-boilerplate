@@ -1,0 +1,16 @@
+{
+  "extends": "@repo/typescript-config/react-library.json",
+  // "compilerOptions": {
+  //   "outDir": "dist"
+  // },
+  "include": ["."],
+  // "exclude": ["node_modules", "dist", "**/*.stories.*", "**/*.test.*"]
+  "exclude": [
+    "src/**/*.stories.*",
+    "src/**/*.test.*",
+    "src/**/*.spec.*",
+    "src/**/*.mdx",
+    "dist",
+    ".storybook"
+  ]
+}

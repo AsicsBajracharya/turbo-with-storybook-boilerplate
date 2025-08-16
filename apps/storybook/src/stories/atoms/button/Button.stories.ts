@@ -1,10 +1,11 @@
+import { Button } from '@repo/ui/components/atoms/Button/button';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 import { fn } from 'storybook/test';
 
-import { Button } from "@repo/ui/Button/button";
+// import { Button } from "@repo/ui/Button/button";
 
 const meta = {
-  title: 'Example/Button',
+  title: 'Components/atoms/Button',
   component: Button,
   parameters: {
     layout: 'centered',
